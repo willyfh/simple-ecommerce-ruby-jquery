@@ -1,5 +1,12 @@
 # How to start the app
-1. Start the API Server by referring to `API.md ##Launch API Server`.
+1. Start the API Server
+```
+cd api-server
+bundle install
+bundle exec foreman start
+open http://localhost:5000
+```
+
 2. Navigate to local site directory `webapp`, and run your web server (*Refer to the below command for Ruby & Python*).
 3. Access `http://localhost:8000` from your browser (*Use Chrome for a better experience*).
 
@@ -17,13 +24,17 @@ python -m SimpleHTTPServer
 python -m http.server
 ```
 
-# Library/Framework:
+# Language/Library/Framework:
 - jQuery
 - CSS Bootstrap
 - Font Awesome
+- Ruby
+- JavaScript
+- CSS
+- HTML
 
 # Screenshots
-![Item List](https://github.com/m-rec/1c44d0cc8b51a220efa75c01d79e5b4dc880a903/blob/master/webapp/resources/images/item-list.jpg?raw=true)
-![Item Detail](https://github.com/m-rec/1c44d0cc8b51a220efa75c01d79e5b4dc880a903/blob/master/webapp/resources/images/item-detail.jpg?raw=true)
+![Item List](https://gitlab.com/willyfitrahendria/simple-ecommerce-ruby-jquery/raw/master/webapp/resources/images/item-list.jpg)
+![Item Detail](https://gitlab.com/willyfitrahendria/simple-ecommerce-ruby-jquery/raw/master/webapp/resources/images/item-detail.jpg)
 
 
