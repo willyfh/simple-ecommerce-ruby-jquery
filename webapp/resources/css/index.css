@@ -1,0 +1,167 @@
+.camera {
+	background-color:#F44336;
+	border-radius:50%;
+	bottom:-20px;
+	display:inline-block;
+	height:100px;
+	position:fixed;
+	right:-20px;
+	width:100px
+}
+
+.camera a {
+	bottom:-20px;
+	color:#FFF;
+	font-size:50px;
+	position:relative;
+	right:-20px
+}
+
+.category-item {
+	display:inline-block;
+	font-size:20px;
+	line-height:60px;
+	list-style:none;
+	padding:0 20px
+}
+
+.category-item.active a {
+	color:#F44336
+}
+
+.category-list {
+	height:60px;
+	margin:0 auto;
+	min-width:650px;
+	padding:0
+}
+
+.category-list,.category-list-container:hover {
+	visibility:visible
+}
+
+.category-list-container {
+	height:60px;
+	margin:0 auto;
+	max-width:480px;
+	overflow-x:auto;
+	overflow-y:hidden;
+	visibility:hidden
+}
+
+.icon-bell {
+	display:inline-block;
+	float:right;
+	font-size:20px;
+	line-height:50px;
+	padding-right:20px
+}
+
+.icon-check {
+	display:inline-block;
+	float:right;
+	font-size:20px;
+	line-height:50px
+}
+
+.item {
+	background-color:#FFF;
+	cursor:pointer;
+	position:relative
+}
+
+.item-container {
+	float:left;
+	padding:3px;
+	width:50%
+}
+
+.item-image {
+	height:100%;
+	width:100%
+}
+
+.item-image-container {
+	height:220px;
+	overflow:hidden
+}
+
+.item-info-container {
+	padding:10px
+}
+
+.item-like {
+	display:inline-block;
+	float:right;
+	font-size:20px
+}
+
+.item-list {
+	margin-top: 115px;
+}
+
+.item-price {
+	display:inline-block
+}
+
+.item-price-text {
+	font-size:18px;
+	font-weight:700
+}
+
+.item-sold {
+	border-right:100px solid transparent;
+	border-top:100px solid #F44336;
+	height:0;
+	position:absolute;
+	top:0;
+	width:0
+}
+
+.item-sold-text {
+	color:#FFF;
+	font-size:24px;
+	font-weight:700;
+	left:5px;
+	position:absolute;
+	top:-80px;
+	transform:rotate(-45deg)
+}
+
+.item-title-text {
+	font-size:16px
+}
+
+.item:hover {
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.menu-bar {
+	display:inline-block;
+	float:left;
+	font-size:20px;
+	line-height:50px;
+}
+
+.search-bar {
+	display:inline-block;
+	float:right;
+	line-height:25px;
+	padding-right:20px;
+	position:relative;
+	top:7px
+}
+
+.search-bar-input {
+	background-color:#eee;
+	border:1px solid #eee;
+	border-radius:5px;
+	padding:5px
+}
+
+.top-header-components {
+	height:50px;
+	margin:0 auto;
+	max-width:480px;
+	padding:0 10px
+}

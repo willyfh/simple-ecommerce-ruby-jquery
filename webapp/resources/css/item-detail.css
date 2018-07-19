@@ -1,0 +1,143 @@
+.footer-info-container {
+	margin:0 auto;
+	max-width:480px
+}
+
+.footer-info-wrapper {
+	background:#333;
+	bottom:0;
+	color:#FFF;
+	font-size:20px;
+	padding:10px;
+	position:fixed;
+	width:100%
+}
+
+.icon-back,.item-detail-name-header {
+	display:inline-block;
+	float:left;
+	font-size:20px;
+	line-height:50px;
+	padding-right:20px
+}
+
+.icon-search {
+	display:inline-block;
+	float:right;
+	font-size:20px;
+	line-height:50px;
+	padding-right:20px
+}
+
+.icon-upload {
+	display:inline-block;
+	float:right;
+	font-size:20px;
+	line-height:50px
+}
+
+.item-detail {
+	background-color:#FFF;
+	margin:50px auto;
+	max-width:480px;
+	min-height:640px;
+	padding:5px 0
+}
+
+.item-detail-action {
+	font-size:14px;
+	padding:10px
+}
+
+.item-detail-comment {
+	color:#aaa;
+	display:inline-block;
+}
+
+.item-detail-like {
+	color:#aaa;
+	display:inline-block;
+	padding-right:10px
+}
+
+.item-detail-comment-button,.item-detail-like-button {
+	border:none;
+	border-radius:20px;
+	padding:5px 15px
+}
+
+.item-detail-description-title {
+	background-color:#ddd;
+	color:#666;
+	font-size:18px;
+	padding:10px
+}
+
+.item-detail-image {
+	height:100%;
+	width:100%
+}
+
+.item-detail-image-container {
+	height:400px;
+	overflow:hidden;
+	position:relative
+}
+
+.item-detail-like-count,.item-detail-comment-count {
+	font-size:20px;
+	font-weight:700;
+	vertical-align:middle
+}
+
+.item-detail-name,.item-detail-description-info {
+	font-size:18px;
+	padding:10px
+}
+
+.item-detail-price {
+	display:inline-block
+}
+
+.item-detail-purchase-button {
+	background-color:#F44336;
+	border:none;
+	border-radius:3px;
+	font-size:15px;
+	padding:5px
+}
+
+.item-detail-report,.item-detail-purchase {
+	float:right
+}
+
+.item-detail-report-button {
+	border:none;
+	border-radius:20px;
+	padding:5px 10px
+}
+
+.item-detail-shipping-fee {
+	display:inline-block;
+	font-size:12px
+}
+
+.item-detail-sold {
+	background-color:#F44336;
+	color:#FFF;
+	font-size:50px;
+	font-weight:700;
+	opacity:0.5;
+	position:absolute;
+	text-align:center;
+	top:165px;
+	vertical-align:middle;
+	width:100%
+}
+
+.top-header-item-detail-components {
+	height:50px;
+	margin:0 auto;
+	max-width:480px;
+	padding:0 10px
+}

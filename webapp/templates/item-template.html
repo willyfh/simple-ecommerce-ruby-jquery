@@ -1,0 +1,21 @@
+<div class="item-container">
+	<div class="item" data-id="${id}">
+		<div class="item-image-container">
+			<img src="${image}" class="item-image"/>
+			<div class="item-sold ${isSoldOut ? '': 'display-none'}">
+				<span class="item-sold-text">SOLD</span>
+			</div>
+		</div>
+		<div class="item-info-container">
+			<div class="item-title">
+				<span class="item-title-text">${name}</span>
+			</div>
+			<div class="item-price">
+				<span class="item-price-text">${formatMoney(price)}</span>
+			</div>
+			<div class="item-like ${like_count <= 0 ? 'display-none' : ''}">
+				<a href="#" class="far fa-heart"> ${like_count}</a>
+			</div>
+		</div>
+	</div>
+</div>
