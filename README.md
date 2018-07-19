@@ -10,6 +10,9 @@ open http://localhost:5000
 2. Navigate to local site directory `webapp`, and run your web server (*Refer to the below command for Ruby & Python*).
 3. Access `http://localhost:8000` from your browser (*Use Chrome for a better experience*).
 
+
+Demo: https://gitlab.com/willyfitrahendria/simple-ecommerce-ruby-jquery/
+
 ## Simple Local HTTP Server With Ruby & Python
 *Ruby*
 ```
